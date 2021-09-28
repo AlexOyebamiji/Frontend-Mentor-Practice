@@ -1,0 +1,119 @@
+body {
+    background-image: url(/images/pattern-background-desktop.svg);
+}
+
+.main {
+    width: 26.9em;
+    height: 28em;
+    background-color: #FFFFFF;
+    display: flex;
+    position: relative;
+    top: 12em;
+    left: 29.9em;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+.main h5 {
+    position: absolute;
+    top: 1em;
+    left: 7em;
+    font-size: 20px;
+    color: black;
+}
+
+.main p {
+    position: absolute;
+    top: 5em;
+    left: 3em;
+    padding-left: 40px;
+    padding-right: 60px;
+    text-align-last: center;
+}
+
+.hero {
+    position: absolute;
+    top: 1em;
+    left: 30.4em;
+    z-index: 9;
+}
+
+.hero img {
+    width: 26.9em;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.annual {
+    position: absolute;
+    width: 19em;
+    height: 5em;
+    bottom: 12em;
+    left: 35em;
+    background-color: #F8F9FE;
+    border-radius: 8px;
+}
+
+.annual img {
+    position: absolute;
+    padding-left: 7px;
+    bottom: 1em;
+}
+
+.annual h5 {
+    position: absolute;
+    left: 5em;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.annual h4 {
+    position: absolute;
+    left: 4em;
+    color: #C7CCD8;
+    top: 1.5em;
+}
+
+.annual p {
+    position: absolute;
+    left: 14em;
+    text-decoration: underline;
+    color: blue;
+    bottom: 1em;
+}
+
+.annual p:hover {
+    text-decoration: none;
+    cursor: pointer;
+}
+
+button {
+    position: relative;
+    left: 42em;
+    top: 2em;
+    background-color: blue;
+    color: white;
+    padding-left: 85px;
+    padding-right: 85px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px #776BF2;
+}
+
+button:hover {
+    cursor: pointer;
+    background-color: #776BF2;
+}
+
+footer {
+    bottom: 4em;
+    position: absolute;
+    left: 41em;
+    color: #A7AFBF;
+    cursor: pointer;
+}
+
+footer:hover {
+    font-weight: bold;
+}
